@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Debug snapshots (Playwright error screenshots and HTML dumps)
+debug/
+
+# Kahoot! session and Chrome profile (sensitive — never commit)
+~/.kahoot/
+.kahoot/
+state.json
+chrome-login.json
+chrome-login-profile/
+
+# Output files (generated quizzes, not needed in repo)
+output/
+
+# IDE
+.idea/
+.vscode/
+
+# Virtual env
+env/
+venv/

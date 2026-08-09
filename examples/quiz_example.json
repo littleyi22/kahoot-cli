@@ -1,0 +1,42 @@
+{
+  "title": "台灣地理與特色趣味問答",
+  "description": "這是一個測試您對台灣地理、地標及特產了解程度的趣味問答！",
+  "questions": [
+    {
+      "question": "台灣最高的山峰是哪一座？",
+      "answers": [
+        "玉山",
+        "雪山",
+        "大霸尖山",
+        "秀姑巒山"
+      ],
+      "correct": 0,
+      "time_limit": 20,
+      "image_search": "Mount Jade Taiwan"
+    },
+    {
+      "question": "以下哪一個縣市「不臨海」？",
+      "answers": [
+        "宜蘭縣",
+        "南投縣",
+        "苗栗縣",
+        "新竹縣"
+      ],
+      "correct": 1,
+      "time_limit": 20,
+      "image_search": "Nantou Taiwan"
+    },
+    {
+      "question": "台灣的國寶魚是哪一種？",
+      "answers": [
+        "櫻花鉤吻鮭",
+        "台灣黑鯛",
+        "吳郭魚",
+        "虱目魚"
+      ],
+      "correct": 0,
+      "time_limit": 20,
+      "image_search": "Formosan landlocked salmon"
+    }
+  ]
+}

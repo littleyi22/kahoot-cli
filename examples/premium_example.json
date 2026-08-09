@@ -1,0 +1,27 @@
+{
+  "title": "大自然與科學趣味挑戰",
+  "description": "體驗付費進階題型：排列解謎、文字雲與票選活動！",
+  "questions": [
+    {
+      "question": "排列解謎：請將下列行星依「距離太陽由近到遠」的順序排列？",
+      "answers": ["水星", "金星", "地球", "火星"],
+      "correct": 0,
+      "type": "puzzle",
+      "image_search": "solar system planets"
+    },
+    {
+      "question": "文字雲：看見「大自然」這三個字，您腦海中第一個浮現的詞彙是什麼？",
+      "answers": [],
+      "correct": 0,
+      "type": "word_cloud",
+      "image_search": "green nature forest"
+    },
+    {
+      "question": "票選活動：您平時最喜歡哪一種大自然天氣？",
+      "answers": ["晴天", "雨天", "雪天", "陰天"],
+      "correct": 0,
+      "type": "poll",
+      "image_search": "clouds weather sun rain"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "趣味猜燈謎與填充挑戰",
+  "description": "精選經典謎題，考驗您的反應力與文字聯想力！",
+  "questions": [
+    {
+      "question": "猜燈謎：三個眼睛一條腿，睜開眼睛就讓走，閉上眼睛不讓動？(打一交通設施)",
+      "answers": ["紅綠燈"],
+      "correct": 0,
+      "type": "type_answer",
+      "image_search": "traffic light"
+    },
+    {
+      "question": "猜燈謎：白白一片似雪花，落入水中不見它，一日三餐離不開？(打一日常用品)",
+      "answers": ["鹽"],
+      "correct": 0,
+      "type": "type_answer",
+      "image_search": "salt bowl"
+    },
+    {
+      "question": "猜燈謎：一隻黑狗，不吃不吼，太陽出來它就走？(打一自然現象)",
+      "answers": ["影子"],
+      "correct": 0,
+      "type": "type_answer",
+      "image_search": "shadow sun"
+    }
+  ]
+}
