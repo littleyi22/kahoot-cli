@@ -165,3 +165,17 @@ python kahoot.py create --content examples/quiz_example.json --no-headless
 ## 📄 授權
 
 MIT License
+
+---
+
+## 📅 開發歷史 (Changelog)
+
+### [2026-08-10] 專案初版完成並發布 GitHub
+
+- 🎉 **初版完成**：完整實作 Kahoot! CLI 自動化出題工具，支援六大題型。
+- 🔐 **混合登入引擎**：CDP 接管 + Persistent Chrome Profile 雙模式，突破 bot 防護機制。
+- 🖼️ **自動配圖**：整合 Kahoot! 內建 Getty 媒體庫，以 `press_sequentially` 精準觸發 React 搜尋狀態，各題配圖不重複。
+- 💎 **付費題型解鎖**：新增 `--premium` 引數，支援簡答填充、排列解謎、文字雲、票選活動四大進階題型；含互動式 TTY 詢問機制。
+- 🧹 **Dummy 佔位自動清理**：首題非 Quiz 時自動插入臨時佔位題，出題完畢後以精準 `dialog-confirm-delete-question__accept-button` 定位刪除，題型序列 100% 純淨。
+- 🤖 **AI Agent SKILL.md**：撰寫完整的 Skill 說明，已部署至全域 `~/.gemini/config/skills/kahoot_quiz_creator/SKILL.md`，未來任何對話觸發「Kahoot 出題」關鍵字即自動啟動。
+- 📦 **開源發布**：推送至 [github.com/littleyi22/kahoot-cli](https://github.com/littleyi22/kahoot-cli)，附三份範例 JSON（一般測驗、猜燈謎填充、付費進階混合）。
