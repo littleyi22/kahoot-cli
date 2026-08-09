@@ -1,5 +1,7 @@
 # kahoot-cli 🎮
 
+> 👨‍🏫 由 **[奕鈞老師](https://ijun-ai.com/)** 製作 | [ijun-ai.com](https://ijun-ai.com/)
+
 > 用 Python + Playwright 驅動真實 Chrome，讓 AI Agent 或腳本自動在 Kahoot! 建立互動遊戲並出題。
 
 ## ✨ 特色
